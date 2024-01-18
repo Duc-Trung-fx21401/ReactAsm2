@@ -1,0 +1,26 @@
+.navbar {
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 98%;
+  padding: 0 12px 0 12px;
+  align-items: center;
+
+  z-index: 1;
+  background-color: transparent;
+}
+.btn {
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-weight: 800;
+}
+.icon-search {
+  cursor: pointer;
+}
+.navbar-black {
+  transition: background-color 1s ease;
+  background-color: black;
+}

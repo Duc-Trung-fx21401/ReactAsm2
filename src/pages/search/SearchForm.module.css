@@ -1,0 +1,65 @@
+/* :root {
+  --search_btn_reset-hover: #f0d5d9;
+  --search_submit: #0bf158;
+  --search_submit-hover: #0bf158;
+} */
+
+.search_form {
+  width: 40%;
+  max-width: 768px;
+  background-color: aliceblue;
+  margin: 5rem auto 2.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.2rem 0.2rem 0 0;
+  padding-top: 0.5rem;
+}
+
+.search_input {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #2b18d4;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.search_input input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+}
+
+.search_input svg {
+  display: block;
+  width: 1.75rem;
+  margin: auto 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 1.5rem;
+}
+.btn button {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+}
+
+.search_btn_reset:hover {
+  color: #ff0026;
+}
+.search_submit {
+  color: #fafafc;
+  background-color: #2b18d4;
+}
+.search_submit:hover {
+  color: #2b18d4;
+  background-color: #fafafc;
+}

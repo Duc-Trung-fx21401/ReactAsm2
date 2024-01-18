@@ -1,0 +1,27 @@
+.result_list {
+  width: 100%;
+}
+
+.result_list h4 {
+  color: aliceblue;
+  margin-left: 1.5rem;
+}
+
+.result_item {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 2.5rem;
+}
+
+.result_item img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.no_result {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 2rem;
+}

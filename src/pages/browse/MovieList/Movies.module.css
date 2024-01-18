@@ -1,0 +1,39 @@
+img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+.movieItem {
+  height: auto;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 20px;
+  margin-left: 20px;
+}
+.title {
+  color: aliceblue;
+  margin-left: 15px;
+  margin-top: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
